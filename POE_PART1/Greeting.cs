@@ -12,7 +12,7 @@ namespace POE_PART1
             string path_directory = AppDomain.CurrentDomain.BaseDirectory;
            // WriteLine($"{path_directory}");
             string recordpath = path_directory.Replace("\\bin\\Debug", "");
-            string record = Path.Combine(recordpath, "voice.wav");
+            string record = Path.Combine(recordpath, "poeVoice.wav");
             play_voice(record);
 
         }
